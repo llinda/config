@@ -1,0 +1,6 @@
+#Ignore everything except bashrc and vimrc
+*
+
+!.bashrc
+!.vimrc
+!.gitignore
