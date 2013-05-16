@@ -25,12 +25,13 @@ alias ll="ls -1 --group-directories-first"          #Group directories first, on
 alias open="xdg-open"                               #Open file
 alias jx="jar -xf"                                  #Extract jar
 alias pc="vi -c 'hardcopy > output.ps' -c quit"     #Alternative to a2ps. 
-alias hg="history | grep"                           #Search nd
+alias hg="history | grep"                           #Search history
 
 #git specific alias
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit"
+alias gca="git commit -a"
 alias go="git checkout"
 alias gb="git branch"
 

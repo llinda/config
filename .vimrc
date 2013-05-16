@@ -17,3 +17,4 @@ syntax on
 "When a file ends in the extension .notes, enable manual font color changes
 au! filetypedetect BufRead,BufNewFile *.notes    setfiletype txtfmt 
 
+inoremap jj <Esc>  
